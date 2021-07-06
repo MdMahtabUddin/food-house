@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 1 px;
+  padding: 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+.orange {
+  color: orange;
+}
+
+.link-button {
+  text-decoration: none;
+  background: orange;
+  padding: 15px 50px;
+
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+.content {
+  width: 50%;
+  padding-left: 10%;
+}
+
+.content img {
+  width: 60%;
+}
+
+section {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.head {
+  background-image: url(images/bg-1.jpg);
+  background-repeat: no-repeat;
+}
+
+.aboutme {
+  background-image: url(images/bg-2.jpg);
+  background-repeat: no-repeat;
+}
+
+.exprience-item {
+  box-shadow: 10px 10px 40px gray;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10%;
+}
+
+.our-food {
+  text-align: center;
+}
+
+.our-food h2 {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #191918;
+  padding: 20px 0px;
+}
