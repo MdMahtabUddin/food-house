@@ -4,43 +4,45 @@ body {
 }
 
 .navbar {
-  position: fixed;
-  top: 0;
   display: flex;
-  width: 100%;
-  height: 60px;
-  background: rgba(0, 0, 0, 0.7);
-}
-
-.navbar ul {
-  display: flex;
-  list-style: none;
-  width: 100%;
-  justify-content: center;
-}
-
-.navbar ul li {
-  margin: 0 1 px;
+  align-items: center;
   padding: 10px;
 }
 
-.navbar ul li a {
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+a {
   text-decoration: none;
-  color: #f4f4f4;
+  color: rgb(120, 128, 15);
+}
+.logo h1 {
+  margin-left: 20px;
+  font-size: bold;
 }
 
 .orange {
   color: orange;
 }
 
-.link-button {
+.food-order-link {
   text-decoration: none;
-  background: orange;
-  padding: 15px 50px;
-
-  border-radius: 5px;
+  background-image: linear-gradient(salmon, orange);
+  padding: 10px 20px;
+  border-radius: 50px;
   color: white;
-  font-weight: 700;
 }
 
 .content {
@@ -67,14 +69,6 @@ section {
   background-repeat: no-repeat;
 }
 
-.exprience-item {
-  box-shadow: 10px 10px 40px gray;
-  width: 40%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding: 10%;
-}
-
 .our-food {
   text-align: center;
 }
@@ -85,4 +79,56 @@ section {
   line-height: 40px;
   color: #191918;
   padding: 20px 0px;
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+  background-color: white;
+  padding: 15px;
+
+  box-sizing: border-box;
+  box-shadow: 6px 12px 10px rgb(238, 234, 234);
+  border-radius: 10px;
+}
+
+.card-body {
+  padding: 5px;
+}
+.card-title {
+  text-align: center;
+}
+.card-desc {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.card-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.new-area {
+  display: flex;
+  margin: 100px 230px 100px 245px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.new-area-style {
+  text-align: center;
+  margin: 0 auto 0;
+  padding: 20px;
+}
+
+.footer-design {
+  background-color: black;
+  text-align: center;
+  padding: 20px 40px;
+}
+.grey-coloring {
+  color: grey;
 }
